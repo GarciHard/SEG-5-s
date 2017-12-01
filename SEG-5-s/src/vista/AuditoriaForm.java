@@ -30,15 +30,67 @@ public class AuditoriaForm extends javax.swing.JFrame {
         pnlBackground = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
+        lblSeiri = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
-        jLabel2 = new javax.swing.JLabel();
+        lblSeiton = new javax.swing.JLabel();
         jSeparator2 = new javax.swing.JSeparator();
+        cmbPregunta1 = new javax.swing.JComboBox<>();
+        cmbPregunta2 = new javax.swing.JComboBox<>();
+        cmbPregunta4 = new javax.swing.JComboBox<>();
+        cmbPregunta3 = new javax.swing.JComboBox<>();
+        cmbPregunta6 = new javax.swing.JComboBox<>();
+        cmbPregunta5 = new javax.swing.JComboBox<>();
+        cmbPregunta7 = new javax.swing.JComboBox<>();
         jScrollPane2 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
+        txaSeiri1 = new javax.swing.JTextArea();
         jScrollPane3 = new javax.swing.JScrollPane();
-        jTextArea2 = new javax.swing.JTextArea();
-        jComboBox1 = new javax.swing.JComboBox<>();
+        txaSeiri11 = new javax.swing.JTextArea();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        txaSeiri2 = new javax.swing.JTextArea();
+        jScrollPane5 = new javax.swing.JScrollPane();
+        txaSeiri12 = new javax.swing.JTextArea();
+        jScrollPane6 = new javax.swing.JScrollPane();
+        txaSeiri3 = new javax.swing.JTextArea();
+        jScrollPane7 = new javax.swing.JScrollPane();
+        txaSeiri13 = new javax.swing.JTextArea();
+        jScrollPane8 = new javax.swing.JScrollPane();
+        txaSeiri4 = new javax.swing.JTextArea();
+        jScrollPane9 = new javax.swing.JScrollPane();
+        txaSeiri14 = new javax.swing.JTextArea();
+        jScrollPane10 = new javax.swing.JScrollPane();
+        txaSeiri5 = new javax.swing.JTextArea();
+        jScrollPane11 = new javax.swing.JScrollPane();
+        txaSeiri15 = new javax.swing.JTextArea();
+        jScrollPane12 = new javax.swing.JScrollPane();
+        txaSeiri6 = new javax.swing.JTextArea();
+        jScrollPane13 = new javax.swing.JScrollPane();
+        txaSeiri16 = new javax.swing.JTextArea();
+        jScrollPane14 = new javax.swing.JScrollPane();
+        txaSeiri7 = new javax.swing.JTextArea();
+        jScrollPane15 = new javax.swing.JScrollPane();
+        txaSeiri17 = new javax.swing.JTextArea();
+        jSeparator3 = new javax.swing.JSeparator();
+        lblSeiton1 = new javax.swing.JLabel();
+        jScrollPane16 = new javax.swing.JScrollPane();
+        txaSeiri18 = new javax.swing.JTextArea();
+        cmbPregunta8 = new javax.swing.JComboBox<>();
+        jScrollPane17 = new javax.swing.JScrollPane();
+        txaSeiri8 = new javax.swing.JTextArea();
+        jScrollPane18 = new javax.swing.JScrollPane();
+        txaSeiri19 = new javax.swing.JTextArea();
+        cmbPregunta9 = new javax.swing.JComboBox<>();
+        jScrollPane19 = new javax.swing.JScrollPane();
+        txaSeiri9 = new javax.swing.JTextArea();
+        jScrollPane20 = new javax.swing.JScrollPane();
+        txaSeiri20 = new javax.swing.JTextArea();
+        cmbPregunta10 = new javax.swing.JComboBox<>();
+        jScrollPane21 = new javax.swing.JScrollPane();
+        txaSeiri10 = new javax.swing.JTextArea();
+        jScrollPane22 = new javax.swing.JScrollPane();
+        txaSeiri21 = new javax.swing.JTextArea();
+        jScrollPane23 = new javax.swing.JScrollPane();
+        txaSeiri22 = new javax.swing.JTextArea();
+        cmbPregunta11 = new javax.swing.JComboBox<>();
         mnuBarra = new javax.swing.JMenuBar();
         mnuAyuda = new javax.swing.JMenu();
         mniPuntuacion = new javax.swing.JMenuItem();
@@ -49,43 +101,309 @@ public class AuditoriaForm extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
-        jLabel1.setFont(new java.awt.Font("Courier New", 0, 18)); // NOI18N
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("1. SEIRI (Seleccionar)");
+        lblSeiri.setFont(new java.awt.Font("Courier New", 0, 18)); // NOI18N
+        lblSeiri.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lblSeiri.setText("1. SEIRI (Seleccionar)");
 
         jSeparator1.setForeground(new java.awt.Color(0, 0, 0));
 
-        jLabel2.setFont(new java.awt.Font("Courier New", 0, 18)); // NOI18N
-        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setText("2. Seiton (Ordenar)");
+        lblSeiton.setFont(new java.awt.Font("Courier New", 0, 18)); // NOI18N
+        lblSeiton.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lblSeiton.setText("2. Seiton (Ordenar)");
 
         jSeparator2.setForeground(new java.awt.Color(0, 0, 0));
 
+        cmbPregunta1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-", "0", "1", "2", "3", "4" }));
+
+        cmbPregunta2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-", "0", "1", "2", "3", "4" }));
+
+        cmbPregunta4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-", "0", "1", "2", "3", "4" }));
+
+        cmbPregunta3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-", "0", "1", "2", "3", "4" }));
+
+        cmbPregunta6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-", "0", "1", "2", "3", "4" }));
+
+        cmbPregunta5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-", "0", "1", "2", "3", "4" }));
+
+        cmbPregunta7.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-", "0", "1", "2", "3", "4" }));
+
         jScrollPane2.setBorder(null);
 
-        jTextArea1.setEditable(false);
-        jTextArea1.setColumns(20);
-        jTextArea1.setFont(new java.awt.Font("Courier New", 0, 12)); // NOI18N
-        jTextArea1.setLineWrap(true);
-        jTextArea1.setRows(5);
-        jTextArea1.setText("1. ¿El asociado conoce las 5S´s y cuales son los beneficios de su aplicación?");
-        jTextArea1.setWrapStyleWord(true);
-        jTextArea1.setBorder(null);
-        jScrollPane2.setViewportView(jTextArea1);
+        txaSeiri1.setEditable(false);
+        txaSeiri1.setColumns(20);
+        txaSeiri1.setFont(new java.awt.Font("Courier New", 0, 12)); // NOI18N
+        txaSeiri1.setLineWrap(true);
+        txaSeiri1.setRows(5);
+        txaSeiri1.setText("1. ¿El asociado conoce las 5S´s y cuales son los beneficios de su aplicación?");
+        txaSeiri1.setWrapStyleWord(true);
+        txaSeiri1.setBorder(null);
+        jScrollPane2.setViewportView(txaSeiri1);
 
         jScrollPane3.setBorder(null);
 
-        jTextArea2.setEditable(false);
-        jTextArea2.setColumns(20);
-        jTextArea2.setFont(new java.awt.Font("Courier New", 0, 12)); // NOI18N
-        jTextArea2.setLineWrap(true);
-        jTextArea2.setRows(5);
-        jTextArea2.setText("Piso y Oficina:Seleccionar aleatoriamente un  asociado de la línea o área y preguntarle: ¿Cuáles son las 5S´s? (mencionarlas en orden), ¿Cuáles son los beneficios de su aplicación en tu lugar de trabajo?\nNota: Si el asociado no conoce las 5S's y/o sus beneficios, llevarlo a la mampara de 5S's y explicarle.");
-        jTextArea2.setWrapStyleWord(true);
-        jTextArea2.setBorder(null);
-        jScrollPane3.setViewportView(jTextArea2);
+        txaSeiri11.setEditable(false);
+        txaSeiri11.setColumns(20);
+        txaSeiri11.setFont(new java.awt.Font("Courier New", 0, 12)); // NOI18N
+        txaSeiri11.setLineWrap(true);
+        txaSeiri11.setRows(5);
+        txaSeiri11.setText("Piso y Oficina:Seleccionar aleatoriamente un  asociado de la línea o área y preguntarle: ¿Cuáles son las 5S´s? (mencionarlas en orden), ¿Cuáles son los beneficios de su aplicación en tu lugar de trabajo?\nNota: Si el asociado no conoce las 5S's y/o sus beneficios, llevarlo a la mampara de 5S's y explicarle.");
+        txaSeiri11.setWrapStyleWord(true);
+        txaSeiri11.setBorder(null);
+        jScrollPane3.setViewportView(txaSeiri11);
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-", "0", "1", "2", "3", "4" }));
+        jScrollPane4.setBorder(null);
+
+        txaSeiri2.setEditable(false);
+        txaSeiri2.setColumns(20);
+        txaSeiri2.setFont(new java.awt.Font("Courier New", 0, 12)); // NOI18N
+        txaSeiri2.setLineWrap(true);
+        txaSeiri2.setRows(5);
+        txaSeiri2.setText("2. ¿Las áreas de trabajo están libres de maquinas/objetos innecesarios y/o defectuosos?");
+        txaSeiri2.setWrapStyleWord(true);
+        txaSeiri2.setBorder(null);
+        jScrollPane4.setViewportView(txaSeiri2);
+
+        jScrollPane5.setBorder(null);
+
+        txaSeiri12.setEditable(false);
+        txaSeiri12.setColumns(20);
+        txaSeiri12.setFont(new java.awt.Font("Courier New", 0, 12)); // NOI18N
+        txaSeiri12.setLineWrap(true);
+        txaSeiri12.setRows(5);
+        txaSeiri12.setText("Piso: Materiales para embalaje, materiales peligrosos, cintas, carros para transporte de materiales,racks, mamparas,contenedores, etc.\nOficina:  sillas, pizarrones,archivo muerto, manuales obsoletos, envases de comida, muestras,mesas, armarios, teléfonos, aparatos electrónicos,gavetas,etc.");
+        txaSeiri12.setWrapStyleWord(true);
+        txaSeiri12.setBorder(null);
+        jScrollPane5.setViewportView(txaSeiri12);
+
+        jScrollPane6.setBorder(null);
+
+        txaSeiri3.setEditable(false);
+        txaSeiri3.setColumns(20);
+        txaSeiri3.setFont(new java.awt.Font("Courier New", 0, 12)); // NOI18N
+        txaSeiri3.setLineWrap(true);
+        txaSeiri3.setRows(5);
+        txaSeiri3.setText("4. ¿Están determinadas las cantidades máximas y mínimas de los materiales?");
+        txaSeiri3.setWrapStyleWord(true);
+        txaSeiri3.setBorder(null);
+        jScrollPane6.setViewportView(txaSeiri3);
+
+        jScrollPane7.setBorder(null);
+
+        txaSeiri13.setEditable(false);
+        txaSeiri13.setColumns(20);
+        txaSeiri13.setFont(new java.awt.Font("Courier New", 0, 12)); // NOI18N
+        txaSeiri13.setLineWrap(true);
+        txaSeiri13.setRows(5);
+        txaSeiri13.setText("Piso: La altura de los materiales es la estándar, identificación de supermercados, puntos de uso (baja de materiales), etc.\nOficina: cajones, gavetas, papeleras, vitrinas, verificar que el contenido no exceda la capacidad de almacenamiento).");
+        txaSeiri13.setWrapStyleWord(true);
+        txaSeiri13.setBorder(null);
+        jScrollPane7.setViewportView(txaSeiri13);
+
+        jScrollPane8.setBorder(null);
+
+        txaSeiri4.setEditable(false);
+        txaSeiri4.setColumns(20);
+        txaSeiri4.setFont(new java.awt.Font("Courier New", 0, 12)); // NOI18N
+        txaSeiri4.setLineWrap(true);
+        txaSeiri4.setRows(5);
+        txaSeiri4.setText("3. Existen marcas/señalizaciones estándar que indican las respectivas áreas de trabajo e identifican lo que contiene o está dentro de ellas.");
+        txaSeiri4.setWrapStyleWord(true);
+        txaSeiri4.setBorder(null);
+        jScrollPane8.setViewportView(txaSeiri4);
+
+        jScrollPane9.setBorder(null);
+
+        txaSeiri14.setEditable(false);
+        txaSeiri14.setColumns(20);
+        txaSeiri14.setFont(new java.awt.Font("Courier New", 0, 12)); // NOI18N
+        txaSeiri14.setLineWrap(true);
+        txaSeiri14.setRows(5);
+        txaSeiri14.setText("Piso: Pasillos, contenedor de residuos, carros de herramientas, gavetas, mamparas, pallets, racks, lomos de carpetas, ayudas visuales, etc.\nOficina:Layout de escritorios, cajones, gavetas, archiveros, sala de juntas, departamentos, área de copiado, lomos de carpetas, etc.");
+        txaSeiri14.setWrapStyleWord(true);
+        txaSeiri14.setBorder(null);
+        jScrollPane9.setViewportView(txaSeiri14);
+
+        jScrollPane10.setBorder(null);
+
+        txaSeiri5.setEditable(false);
+        txaSeiri5.setColumns(20);
+        txaSeiri5.setFont(new java.awt.Font("Courier New", 0, 12)); // NOI18N
+        txaSeiri5.setLineWrap(true);
+        txaSeiri5.setRows(5);
+        txaSeiri5.setText("6. El material bloqueado sigue los estándares establecidos para su confinamiento.");
+        txaSeiri5.setWrapStyleWord(true);
+        txaSeiri5.setBorder(null);
+        jScrollPane10.setViewportView(txaSeiri5);
+
+        jScrollPane11.setBorder(null);
+
+        txaSeiri15.setEditable(false);
+        txaSeiri15.setColumns(20);
+        txaSeiri15.setFont(new java.awt.Font("Courier New", 0, 12)); // NOI18N
+        txaSeiri15.setLineWrap(true);
+        txaSeiri15.setRows(5);
+        txaSeiri15.setText("Que el material que se encuentra bloqueado esté en un área cerrada y bajo llave, con la identificación estándar del responsable del área de cuarentena.V (Area de cuarentena)  TF-147");
+        txaSeiri15.setWrapStyleWord(true);
+        txaSeiri15.setBorder(null);
+        jScrollPane11.setViewportView(txaSeiri15);
+
+        jScrollPane12.setBorder(null);
+
+        txaSeiri6.setEditable(false);
+        txaSeiri6.setColumns(20);
+        txaSeiri6.setFont(new java.awt.Font("Courier New", 0, 12)); // NOI18N
+        txaSeiri6.setLineWrap(true);
+        txaSeiri6.setRows(5);
+        txaSeiri6.setText("5. Los lugares de trabajo de los líderes de línea se encuentran organizados e identificados de acuerdo al estándar");
+        txaSeiri6.setWrapStyleWord(true);
+        txaSeiri6.setBorder(null);
+        jScrollPane12.setViewportView(txaSeiri6);
+
+        jScrollPane13.setBorder(null);
+
+        txaSeiri16.setEditable(false);
+        txaSeiri16.setColumns(20);
+        txaSeiri16.setFont(new java.awt.Font("Courier New", 0, 12)); // NOI18N
+        txaSeiri16.setLineWrap(true);
+        txaSeiri16.setRows(5);
+        txaSeiri16.setText("Parte superior o inferior de la mesa de trabajo/escritorio, gavetas, impresora, cajoneras.");
+        txaSeiri16.setWrapStyleWord(true);
+        txaSeiri16.setBorder(null);
+        jScrollPane13.setViewportView(txaSeiri16);
+
+        jScrollPane14.setBorder(null);
+
+        txaSeiri7.setEditable(false);
+        txaSeiri7.setColumns(20);
+        txaSeiri7.setFont(new java.awt.Font("Courier New", 0, 12)); // NOI18N
+        txaSeiri7.setLineWrap(true);
+        txaSeiri7.setRows(5);
+        txaSeiri7.setText("7. El material que se encuentra en el área de cuarentena, está claramente identificado y cumple con los estándares de identificación de materiales.");
+        txaSeiri7.setWrapStyleWord(true);
+        txaSeiri7.setBorder(null);
+        jScrollPane14.setViewportView(txaSeiri7);
+
+        jScrollPane15.setBorder(null);
+
+        txaSeiri17.setEditable(false);
+        txaSeiri17.setColumns(20);
+        txaSeiri17.setFont(new java.awt.Font("Courier New", 0, 12)); // NOI18N
+        txaSeiri17.setLineWrap(true);
+        txaSeiri17.setRows(5);
+        txaSeiri17.setText("Cinta roja en el piso, marbetes por contenedor, documentos de disposición/seguimiento de materiales en cuarentena.");
+        txaSeiri17.setWrapStyleWord(true);
+        txaSeiri17.setBorder(null);
+        jScrollPane15.setViewportView(txaSeiri17);
+
+        jSeparator3.setForeground(new java.awt.Color(0, 0, 0));
+
+        lblSeiton1.setFont(new java.awt.Font("Courier New", 0, 18)); // NOI18N
+        lblSeiton1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        lblSeiton1.setText("3. Seisou (Limpiar)");
+
+        jScrollPane16.setBorder(null);
+
+        txaSeiri18.setEditable(false);
+        txaSeiri18.setColumns(20);
+        txaSeiri18.setFont(new java.awt.Font("Courier New", 0, 12)); // NOI18N
+        txaSeiri18.setLineWrap(true);
+        txaSeiri18.setRows(5);
+        txaSeiri18.setText("Parte superior o inferior de la mesa de trabajo/escritorio, gavetas, impresora, cajoneras.");
+        txaSeiri18.setWrapStyleWord(true);
+        txaSeiri18.setBorder(null);
+        jScrollPane16.setViewportView(txaSeiri18);
+
+        cmbPregunta8.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-", "0", "1", "2", "3", "4" }));
+
+        jScrollPane17.setBorder(null);
+
+        txaSeiri8.setEditable(false);
+        txaSeiri8.setColumns(20);
+        txaSeiri8.setFont(new java.awt.Font("Courier New", 0, 12)); // NOI18N
+        txaSeiri8.setLineWrap(true);
+        txaSeiri8.setRows(5);
+        txaSeiri8.setText("11. El material que se encuentra en el área de cuarentena, está claramente identificado y cumple con los estándares de identificación de materiales.");
+        txaSeiri8.setWrapStyleWord(true);
+        txaSeiri8.setBorder(null);
+        jScrollPane17.setViewportView(txaSeiri8);
+
+        jScrollPane18.setBorder(null);
+
+        txaSeiri19.setEditable(false);
+        txaSeiri19.setColumns(20);
+        txaSeiri19.setFont(new java.awt.Font("Courier New", 0, 12)); // NOI18N
+        txaSeiri19.setLineWrap(true);
+        txaSeiri19.setRows(5);
+        txaSeiri19.setText("Cinta roja en el piso, marbetes por contenedor, documentos de disposición/seguimiento de materiales en cuarentena.");
+        txaSeiri19.setWrapStyleWord(true);
+        txaSeiri19.setBorder(null);
+        jScrollPane18.setViewportView(txaSeiri19);
+
+        cmbPregunta9.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-", "0", "1", "2", "3", "4" }));
+
+        jScrollPane19.setBorder(null);
+
+        txaSeiri9.setEditable(false);
+        txaSeiri9.setColumns(20);
+        txaSeiri9.setFont(new java.awt.Font("Courier New", 0, 12)); // NOI18N
+        txaSeiri9.setLineWrap(true);
+        txaSeiri9.setRows(5);
+        txaSeiri9.setText("8. ¿Están determinadas las cantidades máximas y mínimas de los materiales?");
+        txaSeiri9.setWrapStyleWord(true);
+        txaSeiri9.setBorder(null);
+        jScrollPane19.setViewportView(txaSeiri9);
+
+        jScrollPane20.setBorder(null);
+
+        txaSeiri20.setEditable(false);
+        txaSeiri20.setColumns(20);
+        txaSeiri20.setFont(new java.awt.Font("Courier New", 0, 12)); // NOI18N
+        txaSeiri20.setLineWrap(true);
+        txaSeiri20.setRows(5);
+        txaSeiri20.setText("Piso: La altura de los materiales es la estándar, identificación de supermercados, puntos de uso (baja de materiales), etc.\nOficina: cajones, gavetas, papeleras, vitrinas, verificar que el contenido no exceda la capacidad de almacenamiento).");
+        txaSeiri20.setWrapStyleWord(true);
+        txaSeiri20.setBorder(null);
+        jScrollPane20.setViewportView(txaSeiri20);
+
+        cmbPregunta10.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-", "0", "1", "2", "3", "4" }));
+
+        jScrollPane21.setBorder(null);
+
+        txaSeiri10.setEditable(false);
+        txaSeiri10.setColumns(20);
+        txaSeiri10.setFont(new java.awt.Font("Courier New", 0, 12)); // NOI18N
+        txaSeiri10.setLineWrap(true);
+        txaSeiri10.setRows(5);
+        txaSeiri10.setText("10. El material bloqueado sigue los estándares establecidos para su confinamiento.");
+        txaSeiri10.setWrapStyleWord(true);
+        txaSeiri10.setBorder(null);
+        jScrollPane21.setViewportView(txaSeiri10);
+
+        jScrollPane22.setBorder(null);
+
+        txaSeiri21.setEditable(false);
+        txaSeiri21.setColumns(20);
+        txaSeiri21.setFont(new java.awt.Font("Courier New", 0, 12)); // NOI18N
+        txaSeiri21.setLineWrap(true);
+        txaSeiri21.setRows(5);
+        txaSeiri21.setText("Que el material que se encuentra bloqueado esté en un área cerrada y bajo llave, con la identificación estándar del responsable del área de cuarentena.V (Area de cuarentena)  TF-147");
+        txaSeiri21.setWrapStyleWord(true);
+        txaSeiri21.setBorder(null);
+        jScrollPane22.setViewportView(txaSeiri21);
+
+        jScrollPane23.setBorder(null);
+
+        txaSeiri22.setEditable(false);
+        txaSeiri22.setColumns(20);
+        txaSeiri22.setFont(new java.awt.Font("Courier New", 0, 12)); // NOI18N
+        txaSeiri22.setLineWrap(true);
+        txaSeiri22.setRows(5);
+        txaSeiri22.setText("9. Los lugares de trabajo de los líderes de línea se encuentran organizados e identificados de acuerdo al estándar");
+        txaSeiri22.setWrapStyleWord(true);
+        txaSeiri22.setBorder(null);
+        jScrollPane23.setViewportView(txaSeiri22);
+
+        cmbPregunta11.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-", "0", "1", "2", "3", "4" }));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -95,22 +413,84 @@ public class AuditoriaForm extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jSeparator2, javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(lblSeiri, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jSeparator1)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(lblSeiton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jComboBox1, 0, 127, Short.MAX_VALUE)))
+                        .addComponent(cmbPregunta1, 0, 160, Short.MAX_VALUE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(cmbPregunta2, 0, 160, Short.MAX_VALUE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(cmbPregunta3, 0, 160, Short.MAX_VALUE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(cmbPregunta4, 0, 160, Short.MAX_VALUE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jScrollPane12, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jScrollPane13, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(cmbPregunta5, 0, 160, Short.MAX_VALUE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(cmbPregunta6, 0, 160, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addComponent(jScrollPane14, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jScrollPane15, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(cmbPregunta7, 0, 160, Short.MAX_VALUE))
+                    .addComponent(jSeparator3)
+                    .addComponent(lblSeiton1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jScrollPane19, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jScrollPane20, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(cmbPregunta10, 0, 160, Short.MAX_VALUE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jScrollPane23, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jScrollPane16, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(cmbPregunta8, 0, 160, Short.MAX_VALUE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jScrollPane21, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jScrollPane22, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(cmbPregunta11, 0, 160, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addComponent(jScrollPane17, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jScrollPane18, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(cmbPregunta9, 0, 160, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel1)
+                .addComponent(lblSeiri)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -121,12 +501,96 @@ public class AuditoriaForm extends javax.swing.JFrame {
                             .addComponent(jScrollPane3)))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(25, 25, 25)
-                        .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(156, 156, 156)
-                .addComponent(jLabel2)
+                        .addComponent(cmbPregunta1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(jScrollPane4)
+                        .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(19, 19, 19)
+                        .addComponent(cmbPregunta2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(18, 18, 18)
+                .addComponent(lblSeiton)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jSeparator2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(215, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(jScrollPane8)
+                        .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(19, 19, 19)
+                        .addComponent(cmbPregunta3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(jScrollPane6)
+                        .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(19, 19, 19)
+                        .addComponent(cmbPregunta4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(jScrollPane12)
+                        .addComponent(jScrollPane13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(19, 19, 19)
+                        .addComponent(cmbPregunta5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(jScrollPane10)
+                        .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(19, 19, 19)
+                        .addComponent(cmbPregunta6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(jScrollPane14)
+                        .addComponent(jScrollPane15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(19, 19, 19)
+                        .addComponent(cmbPregunta7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(18, 18, 18)
+                .addComponent(lblSeiton1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jSeparator3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(jScrollPane19)
+                        .addComponent(jScrollPane20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(19, 19, 19)
+                        .addComponent(cmbPregunta10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(jScrollPane23)
+                        .addComponent(jScrollPane16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(19, 19, 19)
+                        .addComponent(cmbPregunta8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(jScrollPane21)
+                        .addComponent(jScrollPane22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(19, 19, 19)
+                        .addComponent(cmbPregunta11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(jScrollPane17)
+                        .addComponent(jScrollPane18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(19, 19, 19)
+                        .addComponent(cmbPregunta9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(171, Short.MAX_VALUE))
         );
 
         jScrollPane1.setViewportView(jPanel1);
@@ -217,20 +681,72 @@ public class AuditoriaForm extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JComboBox<String> jComboBox1;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
+    private javax.swing.JComboBox<String> cmbPregunta1;
+    private javax.swing.JComboBox<String> cmbPregunta10;
+    private javax.swing.JComboBox<String> cmbPregunta11;
+    private javax.swing.JComboBox<String> cmbPregunta2;
+    private javax.swing.JComboBox<String> cmbPregunta3;
+    private javax.swing.JComboBox<String> cmbPregunta4;
+    private javax.swing.JComboBox<String> cmbPregunta5;
+    private javax.swing.JComboBox<String> cmbPregunta6;
+    private javax.swing.JComboBox<String> cmbPregunta7;
+    private javax.swing.JComboBox<String> cmbPregunta8;
+    private javax.swing.JComboBox<String> cmbPregunta9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane10;
+    private javax.swing.JScrollPane jScrollPane11;
+    private javax.swing.JScrollPane jScrollPane12;
+    private javax.swing.JScrollPane jScrollPane13;
+    private javax.swing.JScrollPane jScrollPane14;
+    private javax.swing.JScrollPane jScrollPane15;
+    private javax.swing.JScrollPane jScrollPane16;
+    private javax.swing.JScrollPane jScrollPane17;
+    private javax.swing.JScrollPane jScrollPane18;
+    private javax.swing.JScrollPane jScrollPane19;
     private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane20;
+    private javax.swing.JScrollPane jScrollPane21;
+    private javax.swing.JScrollPane jScrollPane22;
+    private javax.swing.JScrollPane jScrollPane23;
     private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
+    private javax.swing.JScrollPane jScrollPane5;
+    private javax.swing.JScrollPane jScrollPane6;
+    private javax.swing.JScrollPane jScrollPane7;
+    private javax.swing.JScrollPane jScrollPane8;
+    private javax.swing.JScrollPane jScrollPane9;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
-    private javax.swing.JTextArea jTextArea1;
-    private javax.swing.JTextArea jTextArea2;
+    private javax.swing.JSeparator jSeparator3;
+    private javax.swing.JLabel lblSeiri;
+    private javax.swing.JLabel lblSeiton;
+    private javax.swing.JLabel lblSeiton1;
     private javax.swing.JMenuItem mniPuntuacion;
     private javax.swing.JMenu mnuAyuda;
     private javax.swing.JMenuBar mnuBarra;
     private javax.swing.JPanel pnlBackground;
+    private javax.swing.JTextArea txaSeiri1;
+    private javax.swing.JTextArea txaSeiri10;
+    private javax.swing.JTextArea txaSeiri11;
+    private javax.swing.JTextArea txaSeiri12;
+    private javax.swing.JTextArea txaSeiri13;
+    private javax.swing.JTextArea txaSeiri14;
+    private javax.swing.JTextArea txaSeiri15;
+    private javax.swing.JTextArea txaSeiri16;
+    private javax.swing.JTextArea txaSeiri17;
+    private javax.swing.JTextArea txaSeiri18;
+    private javax.swing.JTextArea txaSeiri19;
+    private javax.swing.JTextArea txaSeiri2;
+    private javax.swing.JTextArea txaSeiri20;
+    private javax.swing.JTextArea txaSeiri21;
+    private javax.swing.JTextArea txaSeiri22;
+    private javax.swing.JTextArea txaSeiri3;
+    private javax.swing.JTextArea txaSeiri4;
+    private javax.swing.JTextArea txaSeiri5;
+    private javax.swing.JTextArea txaSeiri6;
+    private javax.swing.JTextArea txaSeiri7;
+    private javax.swing.JTextArea txaSeiri8;
+    private javax.swing.JTextArea txaSeiri9;
     // End of variables declaration//GEN-END:variables
 }

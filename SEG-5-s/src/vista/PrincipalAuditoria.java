@@ -45,6 +45,7 @@ public class PrincipalAuditoria extends javax.swing.JFrame {
 
         jSeparator1.setForeground(new java.awt.Color(0, 0, 0));
 
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/auditoria.png"))); // NOI18N
         jButton1.setText("Auditar Linea");
         jButton1.setFocusPainted(false);
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -53,6 +54,7 @@ public class PrincipalAuditoria extends javax.swing.JFrame {
             }
         });
 
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/reporte.png"))); // NOI18N
         jButton2.setText("Reportes Auditoria");
         jButton2.setFocusPainted(false);
         jButton2.addActionListener(new java.awt.event.ActionListener() {
